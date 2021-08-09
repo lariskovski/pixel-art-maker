@@ -9,7 +9,6 @@
 ## Runnig Locally
 
 ~~~~
-npx create-react-app pixel-art
 cd pixel-art
 npm start
 ~~~~

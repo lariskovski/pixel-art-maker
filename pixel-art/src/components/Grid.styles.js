@@ -11,6 +11,11 @@ export default createUseStyles({
 },
 
   cell: {
+      cursor: 'pointer',
       outline: '1px solid black',
+      backgroundColor: 'white',
+      '&:hover': {
+        transform: 'scale(1.1)'
+      }
     }
 });

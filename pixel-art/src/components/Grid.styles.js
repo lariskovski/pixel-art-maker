@@ -3,14 +3,14 @@ import { createUseStyles } from 'react-jss';
 export default createUseStyles({
   grid: {
     display: 'grid',
-    gridTemplateRows: 'repeat(5, 1fr)',
-    gridTemplateColumns: 'repeat(8, 1fr)',
+    gridTemplateRows: 'repeat(20, 1fr)',
+    gridTemplateColumns: 'repeat(30, 1fr)',
     width: '80vw',
-    height: '50vh',
+    height: '80vh',
     outline: '2px solid black',
 },
 
   cell: {
-      outline: '2px solid black',
+      outline: '1px solid black',
     }
 });

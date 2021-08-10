@@ -7,10 +7,10 @@ export default createUseStyles({
     gridTemplateColumns: 'repeat(8, 1fr)',
     width: '80vw',
     height: '50vh',
-    outline: '2px solid black'
+    outline: '2px solid black',
 },
 
-  cell:{
+  cell: {
       outline: '2px solid black',
     }
 });
